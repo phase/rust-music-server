@@ -1,0 +1,7 @@
+[package]
+name = "music-server"
+version = "0.1.0"
+authors = ["Jadon Fowler <jadonflower@gmail.com>"]
+
+[dependencies]
+hyper = "0.9.4"
