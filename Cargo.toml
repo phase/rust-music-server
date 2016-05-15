@@ -5,3 +5,4 @@ authors = ["Jadon Fowler <jadonflower@gmail.com>"]
 
 [dependencies]
 hyper = "0.9.4"
+liquid = "0.7"
