@@ -1,1 +1,13 @@
-<h3>Current Song: {{song}}</h3>
+<head>
+    <script src="/static/js/audio.min.js"></script>
+</head>
+
+<body>
+    <h3>Current Song: {{song}}</h3>
+    <script>
+    audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+    });
+    </script>
+    <audio src="/music/{{song}}.mp3" preload="auto" />
+</body>
